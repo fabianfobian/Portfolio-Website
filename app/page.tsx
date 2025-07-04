@@ -132,7 +132,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills & Technologies</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {skills.map((skill, index) => (
+            {skills.map((skill) => (
               <div key={skill.name} className="bg-slate-700/50 p-6 rounded-lg text-center hover:bg-slate-700 transition-colors">
                 <skill.icon className={`mx-auto mb-3 ${skill.color}`} size={40} />
                 <h3 className="text-white font-semibold">{skill.name}</h3>
